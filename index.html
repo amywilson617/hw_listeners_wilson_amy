@@ -2,14 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Listener's HW</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<div class="container">
 
+		<form id="contactform" name="contactform" method="post" action="form.php" onsubmit="return validateForm(this)">
+
+				<fieldset id="basic">
+					<p>
+						<label class="label" for="name">First Name:</label><br/>
+						<input name="req_name" type="text" id="name" required/>
+
+						<label class="label" for="name">Last Name:</label><br/>
+						<input name="req_name" type="text" id="name" required/>
+
+						<label class="label" for="email_address">Email:</label>
+						<input name="req_email_address" type="email" id="email_address" required/>
+
+					</p>
+
+				</fieldset>
+
+                <h6 class="lookingforward"> Message: </h6>
+
+                    <div>
+                        <label class="label" for="comments"> </label>
+
+						<textarea name="comments" id="comments" placeholder="Leave comments and questions here."></textarea>
+                    </div>
+
+                    <div class="navbar">
+						<input type="submit" name="submit" value="Submit">
+                    </div>
+
+		</form>
+
+
+
+	</div>
 
 
     <script src="js/main.js"></script>
