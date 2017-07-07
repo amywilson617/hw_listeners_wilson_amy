@@ -1,7 +1,12 @@
 
-var fnameInput = document.getElementById('fname');
+var fname = document.getElementById('fname');
 
-document.querySelector('form#contactform').addEventListener('submit', function (e) {
+var lname = document.getElementById('lname');
+
+var email_address = document.getElementById('email_address');
+
+var submitbutton = document.getElementById('submit');
+submitbutton.addEventListener('click', function (e) {
     e.preventDefault();
-    console.log(fnameInput.value);
-});
+    console.log(fname.value) (lname.value (email_address.value);
+};
