@@ -35,9 +35,88 @@ img {
     display: block;
     font-family: 'Indie Flower', cursive;
     color: purple;
-    font-size: 2rem;
+    font-size: 1.2rem;
     width: 30%;
     margin: auto;
     padding: 20px;
     background-color: white;
+}
+
+
+/* SQUARE */
+#parent {
+    background-color: #555555;
+}
+
+#level4 {
+    width: 400px;
+    height: 400px;
+    margin: 90px auto;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+#level3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#level2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#level1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#level4.gray {
+    background: navy;
+}
+
+#level3.gray {
+    background: purple;
+}
+
+#level2.gray {
+    background: pink;
+}
+
+#level1.gray {
+    background: navy;
+}
+
+#level4.color {
+    background: purple;
+}
+
+#level3.color {
+    background: pink;
+}
+
+#level2.color {
+    background: navy;
+}
+
+#level1.color {
+    background: purple;
+}
+
+div {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+canvas {
+    width: 100%;
 }
