@@ -1,13 +1,10 @@
-var heading = document.getElementById('header');
+(function () {
+    var btn = document.getElementsByClassName('btn');
+    var output = document.getElementsByTagName('div');
+    var printMsg = function () {
+        output[0].innerHTML = 'Harper says "Hi!';
+    };
 
-var clicks = 0;
-function clickCounter() {
-    clicks += 1;
-}
+    btn[0].addEventListener('click', printMsg);
 
-heading.addEventListener('click', function () {
-    clickCounter();
-    var myElement = document.createElement('paragraph');
-    myElement.innerHTML = '<p>This is click number</p>' + clicks;
-    document.getElementById('header').appendChild(myElement);
-});
+})();
