@@ -1,10 +1,9 @@
-(function () {
-    var btn = document.getElementsByClassName('btn');
-    var output = document.getElementsByTagName('div');
-    var printMsg = function () {
-        output[0].innerHTML = 'Harper says "Hi!';
-    };
+var heading = document.getElementById('header');
 
-    btn[0].addEventListener('click', printMsg);
+var clicks = 0;
 
-})();
+heading.addEventListener('click', function () {
+    var myElement = document.createElement('paragraph');
+    myElement.innerHTML = '<p> This is click number </p>' + ++clicks;
+    document.getElementById('header').appendChild(myElement);
+});
