@@ -1,15 +1,13 @@
 
 (Github repo)[]
 # Resources
-* (Click event listener) [https://codepen.io/underthex/pen/akAhJ]
-## Formatting for click event listener
-* Lectures and help from Nick
+* I did not use any resources outside of the lectures, and Nick's awesome help!
 
 
 # Deductions
-* In	the	README,	type	out	"I	reviewed	the	list	of	deductions	for	this	project
+* "I	reviewed	the	list	of	deductions	for	this	project
 and	in	the	syllabus."
 
 
 # Comments
-* 
+* Tough assignment, but I feel much more confident on Event Listeners and am grasping the concept.
