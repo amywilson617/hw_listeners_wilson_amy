@@ -30,3 +30,14 @@ img {
     width: 30%;
     margin: auto;
 }
+
+.btn {
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    color: purple;
+    font-size: 2rem;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
